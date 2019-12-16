@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kjw217.github.io/posts/python/</loc>
+    <lastmod>2019-12-17T04:45:49+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kjw217.github.io/categories/</loc>
     <lastmod>2019-11-07T05:00:00+00:00</lastmod>
   </url>
@@ -112,6 +117,10 @@
   
   <url>
     <loc>https://kjw217.github.io/author/mark-dinn/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/posts/</loc>
   </url>
   
   <url>
