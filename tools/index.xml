@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tools on Northendlab | Blog Template</title>
+    <title>Tools on References</title>
     <link>https://kjw217.github.io/tools/</link>
-    <description>Recent content in Tools on Northendlab | Blog Template</description>
+    <description>Recent content in Tools on References</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>ko-kr</language>
     <lastBuildDate>Sat, 06 Jul 2019 15:27:17 +0600</lastBuildDate>
     
 	<atom:link href="https://kjw217.github.io/tools/index.xml" rel="self" type="application/rss+xml" />

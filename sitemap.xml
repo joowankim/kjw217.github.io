@@ -3,8 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kjw217.github.io/posts/python/</loc>
-    <lastmod>2019-12-17T04:45:49+09:00</lastmod>
+    <loc>https://kjw217.github.io/posts/languages/go/</loc>
+    <lastmod>2019-12-17T11:55:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/posts/languages/</loc>
+    <lastmod>2019-12-17T11:40:41+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/posts/</loc>
+    <lastmod>2019-12-17T11:40:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/posts/languages/python/</loc>
+    <lastmod>2019-12-17T11:17:59+09:00</lastmod>
   </url>
   
   <url>
@@ -117,10 +132,6 @@
   
   <url>
     <loc>https://kjw217.github.io/author/mark-dinn/</loc>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/posts/</loc>
   </url>
   
   <url>
