@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Jua-Regular';
+  src: url('fonts/Jua-Regular.eot');
+  src: url('fonts/Jua-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Jua-Regular.svg#Jua-Regular') format('svg'),
+       url('fonts/Jua-Regular.ttf') format('truetype'),
+       url('fonts/Jua-Regular.woff') format('woff'),
+       url('fonts/Jua-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
