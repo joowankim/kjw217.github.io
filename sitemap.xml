@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial-00/</loc>
+    <lastmod>2019-12-18T13:37:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/categories/blog/</loc>
+    <lastmod>2019-12-18T13:37:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/categories/</loc>
+    <lastmod>2019-12-18T13:37:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/categories/hugo/</loc>
+    <lastmod>2019-12-18T13:37:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/tags/intro/</loc>
+    <lastmod>2019-12-18T13:37:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/tags/make-blog/</loc>
+    <lastmod>2019-12-18T13:37:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/</loc>
+    <lastmod>2019-12-18T13:37:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/tags/</loc>
+    <lastmod>2019-12-18T13:37:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/posts/makeblog/hugo/</loc>
+    <lastmod>2019-12-18T13:35:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kjw217.github.io/posts/languages/go/</loc>
     <lastmod>2019-12-17T11:55:59+09:00</lastmod>
   </url>
@@ -20,91 +65,6 @@
   <url>
     <loc>https://kjw217.github.io/posts/languages/python/</loc>
     <lastmod>2019-12-17T11:17:59+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/categories/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/categories/design-tools/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/categories/development-tools/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/categories/hugo/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/categories/meta-data/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/my-awesome-blog-post.1/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/my-awesome-blog-post.2/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/my-awesome-blog-post.3/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/my-awesome-blog-post.4/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/my-awesome-blog-post/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/my-awesome-blog-post-2/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/my-awesome-blog-post-3/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/my-awesome-blog-post-4/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/my-awesome-blog-post-5/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/my-awesome-blog-post-6/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/categories/seo-learning/</loc>
-    <lastmod>2019-11-07T05:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -131,11 +91,11 @@
   </url>
   
   <url>
-    <loc>https://kjw217.github.io/author/mark-dinn/</loc>
+    <loc>https://kjw217.github.io/author/joowan-kim/</loc>
   </url>
   
   <url>
-    <loc>https://kjw217.github.io/tags/</loc>
+    <loc>https://kjw217.github.io/author/mark-dinn/</loc>
   </url>
   
 </urlset>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko-kr"><head>
+  <meta charset="utf-8">
+  <title>[Hugo&amp;Github Pages] Tutorial 00</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="introduce Hugo &amp; Github pages">
+  
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.61.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://kjw217.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://kjw217.github.io/plugins/themify-icons/themify-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://kjw217.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://kjw217.github.io/images/favicon%281%29.png " type="image/x-icon">
+  <link rel="icon" href="https://kjw217.github.io/images/favicon%281%29.png " type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="fixed-top navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand"href="https://kjw217.github.io/"><img class="img-fluid" src="/images/logo_re.png" alt="References"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://kjw217.github.io/"> Home </a>
+          </li>
+          
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Posts
+              </a>
+              <div class="dropdown-menu">
+                
+                <span class="dropdown-header">Languages</span>
+                  
+                  <a class="dropdown-item" href="https://kjw217.github.io/posts/languages/go/">GO</a>
+                  
+                  <a class="dropdown-item" href="https://kjw217.github.io/posts/languages/python/">Python</a>
+                  
+                
+              </div>
+            </li>
+            
+          
+        </ul>
+        
+        <!-- search -->
+        <div class="search">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://kjw217.github.io//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="태그 & 카테고리 & 제목 검색">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation --> <div class="py-5 d-none d-lg-block"></div> 
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto block shadow mb-5">
+        <h2>[Hugo&amp;Github Pages] Tutorial 00</h2>
+        <div class="mb-3"><span>by <a href="/author/joowan-kim">Joowan kim</a></span>,
+          <span>at 18 December 2019</span><br/>
+          categories :
+          
+          <a href='/categories/hugo' class="badge badge-secondary">Hugo</a>
+          
+          <a href='/categories/blog' class="badge badge-secondary">Blog</a>
+          <br/>
+          tags :
+          
+          <a href='/tags/make-blog' class="badge badge-info">Make blog</a>
+          
+          <a href='/tags/intro' class="badge badge-info">Intro</a>
+          
+        </div>
+        
+        <img src="/images/post/hugo/hugo-logo.svg" class="img-fluid w-100 mb-4" alt="[Hugo&amp;Github Pages] Tutorial 00">
+        
+        <div class="content mb-5">
+          <h3 id="hugo">Hugo</h3>
+<hr>
+<p>Hugo는 GO언어 기반의 정적 웹사이트 생성기(Static Site Generator <del>이하 쓱</del>)<br>
+Github Pages와 함께 사용해 블로그를 만들기 위해 사용<br>
+현재 블로그의 front-end를 생성해주는 역할을 수행 중이다.</p>
+<h4 id="hugo-">Hugo 특징</h4>
+<ul>
+<li>다른 정적 웹사이트 생성기<del>쓱</del>(<em>e.g. Jekyll, Hexo, and etc..</em>)에 비해 빌드가 빠름</li>
+<li><a href="https://www.staticgen.com/" title="staticgen">여기</a>에서 Jekyll보다 star가 많음 <strong><em>2019.12.18 기준</em></strong></li>
+<li><del>내 생각엔</del> 다른 정적 웹사이트 생성기보다 테마 커스터마이징이 쉬웠음</li>
+</ul>
+<p><img src="/images/post/hugo/github-pages.png" alt="Github Pages"></p>
+<h3 id="github-pages">Github Pages</h3>
+<hr>
+<p>Github에서 <strong>무료</strong> <del>공짜 좋아하면 대머ㄹ..</del> 로 제공해주는 웹호스팅 서비스!<br>
+이를 이용하면 다음과 같은 과정을 통해 개인 웹페이지를 가질 수 있게 된다</p>
+<blockquote>
+<ol>
+<li>Github 저장소에 내가 만든 웹페이지를 올림</li>
+<li>Github에서 서버를 <del>무료로</del> 제공</li>
+<li>개인 웹페이지 생성 및 노출</li>
+</ol>
+</blockquote>
+<h4 id="github-pages-">Github Pages 특징</h4>
+<ul>
+<li>https://[username].github.io 형식의 개인 웹페이지 주소를 생성</li>
+<li>사용이 매우 쉽고 간단하다</li>
+</ul>
+<hr>
+<h6 id="-">참고 자료</h6>
+<ul>
+<li><a href="https://gohugo.io/">Hugo 홈페이지</a></li>
+<li><a href="https://pages.github.com/">Github Pages 홈페이지</a></li>
+<li><a href="https://mygumi.tistory.com/285">마이구미의 Hello word, Github Pages란 무엇인가?</a></li>
+<li><a href="https://mygumi.tistory.com/285">Tigim Insight, Hugo Static Web Engine</a></li>
+</ul>
+<p><em>부족한 점이 있다면 댓글로 알려주세요!</em></p>
+
+        </div>
+      </div>
+
+      <script src="https://utteranc.es/client.js"
+              repo="kjw217/blog-comments"
+              issue-term="title"
+              label="test_utterances_bot"
+              theme="github-light"
+              crossorigin="anonymous"
+              async>
+      </script>
+    </div>
+  </div>
+</section>
+
+
+<footer class="py-4 bg-light border-top">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+        <a href="https://kjw217.github.io/"><img src="/images/logo_re.png" class="img-fluid"
+            alt="References"></a>
+      </div>
+      <div class="col-lg-4 text-center mb-4 mb-lg-0">
+        <ul class="list-inline mb-0">
+          
+        </ul>
+      </div>
+      <div class="col-lg-4 text-lg-right text-center mb-4 mb-lg-0">
+        <ul class="list-inline social-icon mb-0">
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://github.com/kjw217"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 text-center mt-4">
+        <span></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script>
+  var indexURL = "https://kjw217.github.io/index.json"
+</script>
+
+
+<!-- JS Plugins -->
+
+<script src="https://kjw217.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://kjw217.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://kjw217.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://kjw217.github.io/plugins/search/mark.js"></script>
+
+<script src="https://kjw217.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://kjw217.github.io/js/script.min.js"></script>
+<!-- google analitycs -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'Your ID', 'auto');
+  ga('send', 'pageview');
+</script></body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on References</title>
+    <link>https://kjw217.github.io/posts/makeblog/hugo/</link>
+    <description>Recent content in Hugo on References</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 18 Dec 2019 13:35:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://kjw217.github.io/posts/makeblog/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Hugo&amp;Github Pages] Tutorial 00</title>
+      <link>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial-00/</link>
+      <pubDate>Wed, 18 Dec 2019 13:37:13 +0900</pubDate>
+      
+      <guid>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial-00/</guid>
+      <description>Hugo  Hugo는 GO언어 기반의 정적 웹사이트 생성기(Static Site Generator 이하 쓱)</description>
+    </item>
+    
+  </channel>
+</rss>
