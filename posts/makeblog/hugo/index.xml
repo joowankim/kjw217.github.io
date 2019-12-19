@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>[Hugo&amp;Github Pages] Tutorial01 Hugo 로컬 서버 만들기</title>
+      <link>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial01-hugo-%EB%A1%9C%EC%BB%AC-%EC%84%9C%EB%B2%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
+      <pubDate>Wed, 18 Dec 2019 15:46:20 +0900</pubDate>
+      
+      <guid>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial01-hugo-%EB%A1%9C%EC%BB%AC-%EC%84%9C%EB%B2%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
+      <description>Hugo 설치하기  Hugo installation 페이지로 가면 설치방법을 영어로 설명하고 있다.</description>
+    </item>
+    
+    <item>
       <title>[Hugo&amp;Github Pages] Tutorial00 간단한 소개</title>
       <link>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial00-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%86%8C%EA%B0%9C/</link>
       <pubDate>Wed, 18 Dec 2019 13:37:13 +0900</pubDate>

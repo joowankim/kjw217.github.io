@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on References</title>
-    <link>https://kjw217.github.io/categories/blog/</link>
-    <description>Recent content in Blog on References</description>
+    <title>Github Pages on References</title>
+    <link>https://kjw217.github.io/categories/github-pages/</link>
+    <description>Recent content in Github Pages on References</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Wed, 18 Dec 2019 15:46:20 +0900</lastBuildDate>
     
-	<atom:link href="https://kjw217.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kjw217.github.io/categories/github-pages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial01-hugo-%EB%A1%9C%EC%BB%AC-%EC%84%9C%EB%B2%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
       <description>Hugo 설치하기  Hugo installation 페이지로 가면 설치방법을 영어로 설명하고 있다.</description>
-    </item>
-    
-    <item>
-      <title>[Hugo&amp;Github Pages] Tutorial00 간단한 소개</title>
-      <link>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial00-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%86%8C%EA%B0%9C/</link>
-      <pubDate>Wed, 18 Dec 2019 13:37:13 +0900</pubDate>
-      
-      <guid>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial00-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%86%8C%EA%B0%9C/</guid>
-      <description>Hugo  Hugo는 GO언어 기반의 정적 웹사이트 생성기(Static Site Generator 이하 쓱)</description>
     </item>
     
   </channel>

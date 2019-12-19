@@ -3,22 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial00-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%86%8C%EA%B0%9C/</loc>
-    <lastmod>2019-12-18T13:37:13+09:00</lastmod>
+    <loc>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial01-hugo-%EB%A1%9C%EC%BB%AC-%EC%84%9C%EB%B2%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</loc>
+    <lastmod>2019-12-18T15:46:20+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://kjw217.github.io/categories/blog/</loc>
-    <lastmod>2019-12-18T13:37:13+09:00</lastmod>
+    <lastmod>2019-12-18T15:46:20+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://kjw217.github.io/categories/</loc>
-    <lastmod>2019-12-18T13:37:13+09:00</lastmod>
+    <lastmod>2019-12-18T15:46:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/tags/create-blog/</loc>
+    <lastmod>2019-12-18T15:46:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/categories/github-pages/</loc>
+    <lastmod>2019-12-18T15:46:20+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://kjw217.github.io/categories/hugo/</loc>
+    <lastmod>2019-12-18T15:46:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/tags/installation/</loc>
+    <lastmod>2019-12-18T15:46:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/</loc>
+    <lastmod>2019-12-18T15:46:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/tags/</loc>
+    <lastmod>2019-12-18T15:46:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial00-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%86%8C%EA%B0%9C/</loc>
     <lastmod>2019-12-18T13:37:13+09:00</lastmod>
   </url>
   
@@ -29,16 +59,6 @@
   
   <url>
     <loc>https://kjw217.github.io/tags/make-blog/</loc>
-    <lastmod>2019-12-18T13:37:13+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/</loc>
-    <lastmod>2019-12-18T13:37:13+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/tags/</loc>
     <lastmod>2019-12-18T13:37:13+09:00</lastmod>
   </url>
   

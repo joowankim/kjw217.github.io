@@ -6,7 +6,7 @@
     <description>Recent content in Categories on References</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 18 Dec 2019 13:37:13 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 15:46:20 +0900</lastBuildDate>
     
 	<atom:link href="https://kjw217.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,16 +14,25 @@
     <item>
       <title>Blog</title>
       <link>https://kjw217.github.io/categories/blog/</link>
-      <pubDate>Wed, 18 Dec 2019 13:37:13 +0900</pubDate>
+      <pubDate>Wed, 18 Dec 2019 15:46:20 +0900</pubDate>
       
       <guid>https://kjw217.github.io/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Github Pages</title>
+      <link>https://kjw217.github.io/categories/github-pages/</link>
+      <pubDate>Wed, 18 Dec 2019 15:46:20 +0900</pubDate>
+      
+      <guid>https://kjw217.github.io/categories/github-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hugo</title>
       <link>https://kjw217.github.io/categories/hugo/</link>
-      <pubDate>Wed, 18 Dec 2019 13:37:13 +0900</pubDate>
+      <pubDate>Wed, 18 Dec 2019 15:46:20 +0900</pubDate>
       
       <guid>https://kjw217.github.io/categories/hugo/</guid>
       <description></description>
