@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Github Pages on References</title>
-    <link>https://kjw217.github.io/categories/github-pages/</link>
-    <description>Recent content in Github Pages on References</description>
+    <title>github.io on References</title>
+    <link>https://kjw217.github.io/tags/github.io/</link>
+    <description>Recent content in github.io on References</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Thu, 19 Dec 2019 10:24:34 +0900</lastBuildDate>
     
-	<atom:link href="https://kjw217.github.io/categories/github-pages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kjw217.github.io/tags/github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial02-github-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%97%85%EB%A1%9C%EB%93%9C/</guid>
       <description>Github repository 생성하기  Github의 repository는 총 2개가 필요하다.
  C:\Hugo\blog의 전체 내용을 담을 repository 이후에 생성될 C:\Hugo\public의 생성된 정적 웹페이지를 담을 repository    첫 번째 저장소는 원하는 이름blog으로 생성 두 번째 저장소는 &amp;lt;github계정&amp;gt;.</description>
-    </item>
-    
-    <item>
-      <title>[Hugo&amp;Github Pages] Tutorial01 Hugo 로컬 서버 만들기</title>
-      <link>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial01-hugo-%EB%A1%9C%EC%BB%AC-%EC%84%9C%EB%B2%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
-      <pubDate>Wed, 18 Dec 2019 15:46:20 +0900</pubDate>
-      
-      <guid>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial01-hugo-%EB%A1%9C%EC%BB%AC-%EC%84%9C%EB%B2%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
-      <description>Hugo 설치하기  Hugo installation 페이지로 가면 설치방법을 영어로 설명하고 있다.</description>
     </item>
     
   </channel>

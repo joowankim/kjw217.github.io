@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github api on References</title>
+    <link>https://kjw217.github.io/tags/github-api/</link>
+    <description>Recent content in Github api on References</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 19 Dec 2019 10:38:17 +0900</lastBuildDate>
+    
+	<atom:link href="https://kjw217.github.io/tags/github-api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Hugo&amp;Github Pages] Tutorial03 댓글기능 추가하기</title>
+      <link>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial03-%EB%8C%93%EA%B8%80%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Thu, 19 Dec 2019 10:38:17 +0900</pubDate>
+      
+      <guid>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial03-%EB%8C%93%EA%B8%80%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</guid>
+      <description>Utterances  Utterances configuration 페이지를 해석해보면 Github 이슈 검색 API를 활용해 url, pathname, title을 기반으로 페이지(e.</description>
+    </item>
+    
+  </channel>
+</rss>

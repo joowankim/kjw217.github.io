@@ -12,6 +12,25 @@
     
     
     <item>
+      <title>[Hugo&amp;Github Pages] Tutorial03 댓글기능 추가하기</title>
+      <link>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial03-%EB%8C%93%EA%B8%80%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Thu, 19 Dec 2019 10:38:17 +0900</pubDate>
+      
+      <guid>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial03-%EB%8C%93%EA%B8%80%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</guid>
+      <description>Utterances  Utterances configuration 페이지를 해석해보면 Github 이슈 검색 API를 활용해 url, pathname, title을 기반으로 페이지(e.</description>
+    </item>
+    
+    <item>
+      <title>[Hugo&amp;Github Pages] Tutorial02 Github 저장소 생성 및 업로드</title>
+      <link>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial02-github-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%97%85%EB%A1%9C%EB%93%9C/</link>
+      <pubDate>Thu, 19 Dec 2019 10:24:34 +0900</pubDate>
+      
+      <guid>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial02-github-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%97%85%EB%A1%9C%EB%93%9C/</guid>
+      <description>Github repository 생성하기  Github의 repository는 총 2개가 필요하다.
+ C:\Hugo\blog의 전체 내용을 담을 repository 이후에 생성될 C:\Hugo\public의 생성된 정적 웹페이지를 담을 repository    첫 번째 저장소는 원하는 이름blog으로 생성 두 번째 저장소는 &amp;lt;github계정&amp;gt;.</description>
+    </item>
+    
+    <item>
       <title>[Hugo&amp;Github Pages] Tutorial01 Hugo 로컬 서버 만들기</title>
       <link>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial01-hugo-%EB%A1%9C%EC%BB%AC-%EC%84%9C%EB%B2%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
       <pubDate>Wed, 18 Dec 2019 15:46:20 +0900</pubDate>
