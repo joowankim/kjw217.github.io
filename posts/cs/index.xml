@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cs on References</title>
+    <link>https://kjw217.github.io/posts/cs/</link>
+    <description>Recent content in Cs on References</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 26 Dec 2019 12:05:06 +0900</lastBuildDate>
+    
+	<atom:link href="https://kjw217.github.io/posts/cs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

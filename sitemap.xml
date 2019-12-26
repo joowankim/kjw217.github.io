@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kjw217.github.io/posts/cs/</loc>
+    <lastmod>2019-12-26T12:05:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/posts/cs/ds/</loc>
+    <lastmod>2019-12-26T12:04:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/posts/cs/os/</loc>
+    <lastmod>2019-12-26T12:03:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/posts/cs/db/</loc>
+    <lastmod>2019-12-26T12:03:40+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/posts/cs/network/</loc>
+    <lastmod>2019-12-26T12:03:31+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kjw217.github.io/posts/languages/js/</loc>
     <lastmod>2019-12-20T07:15:26+09:00</lastmod>
   </url>
