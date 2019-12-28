@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>[Hugo&amp;Github Pages] Theme Customizing 01 카테고리 만들기</title>
+      <link>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-theme-customizing-01-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link>
+      <pubDate>Sun, 22 Dec 2019 21:38:45 +0900</pubDate>
+      
+      <guid>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-theme-customizing-01-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid>
+      <description>내가 가진 테마인 northendlab-hugo 테마에서 nested sections를 이용해 트리 구조의 카테고리 탭을 만들었던 과정을 기록하겠다.</description>
+    </item>
+    
+    <item>
       <title>[Hugo&amp;Github Pages] Tutorial03 댓글기능 추가하기</title>
       <link>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial03-%EB%8C%93%EA%B8%80%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</link>
       <pubDate>Thu, 19 Dec 2019 10:38:17 +0900</pubDate>

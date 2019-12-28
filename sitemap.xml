@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kjw217.github.io/posts/cs/ca/</loc>
+    <lastmod>2019-12-28T14:09:28+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kjw217.github.io/posts/cs/</loc>
     <lastmod>2019-12-26T12:05:06+09:00</lastmod>
   </url>
@@ -28,22 +33,57 @@
   </url>
   
   <url>
+    <loc>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-theme-customizing-01-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC-%EB%A7%8C%EB%93%A4%EA%B8%B0/</loc>
+    <lastmod>2019-12-22T21:38:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/categories/blog/</loc>
+    <lastmod>2019-12-22T21:38:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/categories/</loc>
+    <lastmod>2019-12-22T21:38:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/tags/category-tab/</loc>
+    <lastmod>2019-12-22T21:38:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/tags/customizing/</loc>
+    <lastmod>2019-12-22T21:38:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/categories/github-pages/</loc>
+    <lastmod>2019-12-22T21:38:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/categories/hugo/</loc>
+    <lastmod>2019-12-22T21:38:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/</loc>
+    <lastmod>2019-12-22T21:38:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/tags/</loc>
+    <lastmod>2019-12-22T21:38:45+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kjw217.github.io/posts/languages/js/</loc>
     <lastmod>2019-12-20T07:15:26+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial03-%EB%8C%93%EA%B8%80%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/</loc>
-    <lastmod>2019-12-19T10:38:17+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/categories/blog/</loc>
-    <lastmod>2019-12-19T10:38:17+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/categories/</loc>
     <lastmod>2019-12-19T10:38:17+09:00</lastmod>
   </url>
   
@@ -58,32 +98,12 @@
   </url>
   
   <url>
-    <loc>https://kjw217.github.io/categories/hugo/</loc>
-    <lastmod>2019-12-19T10:38:17+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/</loc>
-    <lastmod>2019-12-19T10:38:17+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/tags/</loc>
-    <lastmod>2019-12-19T10:38:17+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kjw217.github.io/tags/utterances/</loc>
     <lastmod>2019-12-19T10:38:17+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://kjw217.github.io/posts/makeblog/hugo/hugogithub-pages-tutorial02-github-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%97%85%EB%A1%9C%EB%93%9C/</loc>
-    <lastmod>2019-12-19T10:24:34+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/categories/github-pages/</loc>
     <lastmod>2019-12-19T10:24:34+09:00</lastmod>
   </url>
   
