@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ko-kr"><head>
+  <meta charset="utf-8">
+  <title>[Operating System] 00 Intro</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Opertaing System Introduction">
+  
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.61.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://kjw217.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://kjw217.github.io/plugins/themify-icons/themify-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://kjw217.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://kjw217.github.io/images/favicon%281%29.png " type="image/x-icon">
+  <link rel="icon" href="https://kjw217.github.io/images/favicon%281%29.png " type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="fixed-top navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand"href="https://kjw217.github.io/"><img class="img-fluid" src="/images/logo_re.png" alt="References"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://kjw217.github.io/"> Home </a>
+          </li>
+          
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Posts
+              </a>
+              <div class="dropdown-menu">
+                
+                <span class="dropdown-header">Computer Science</span>
+                  
+                  <a class="dropdown-item" href="https://kjw217.github.io/posts/cs/os">OS</a>
+                  
+                
+                <span class="dropdown-header">블로그 만들기</span>
+                  
+                  <a class="dropdown-item" href="https://kjw217.github.io/posts/makeblog/hugo/">Hugo&amp;Github Pages</a>
+                  
+                
+              </div>
+            </li>
+            
+          
+        </ul>
+        
+        <!-- search -->
+        <div class="search">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://kjw217.github.io//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="태그 & 카테고리 & 제목 검색">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation --> <div class="py-5 d-none d-lg-block"></div> 
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-11 mx-auto block shadow mb-5">
+        <h2>[Operating System] 00 Intro</h2>
+        <div class="mb-3"><span>by <a href="/author/joowan-kim">Joowan kim</a></span>,
+          <span>at 26 December 2019</span><br/>
+          categories :
+          
+          <a href='/categories/operating-system' class="badge badge-secondary">Operating system</a>
+          
+          <a href='/categories/intro' class="badge badge-secondary">Intro</a>
+          <br/>
+          tags :
+          
+          <a href='/tags/introduction' class="badge badge-info">Introduction</a>
+          
+          <a href='/tags/overview' class="badge badge-info">Overview</a>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <h3 id="operating-system">Operating System</h3>
+<p>A collection of computer programs.</p>
+<ul>
+<li><strong>mananges</strong> computer hardware resources.</li>
+<li><strong>provides</strong> a <strong>basis</strong> for application programs.</li>
+<li>acts as an <strong>interface</strong> between the computer user and the computer hardware.</li>
+</ul>
+<h3 id="what-oses-do">What OSes do</h3>
+<ul>
+<li>User View:
+<ol>
+<li>Command Line Interface(CLI)</li>
+<li>Graphical User Interface(GUI)</li>
+<li>Touch Screen Interface</li>
+</ol>
+</li>
+<li>System View: Kernel
+<ol>
+<li>A collection of programs that is an interface</li>
+<li>OS makes hardware useful to the programmer</li>
+<li>OS controls user programs</li>
+<li>간단한 가정을 가진다
+<ul>
+<li>한번에 하나의 프로그램만 실행된다</li>
+<li>나쁜 유저는 없다</li>
+</ul>
+</li>
+<li><strong>하드웨어나 유저의 사용성에서 문제가 생길 수 있다</strong></li>
+<li>OS provides mechanisms to address the problems
+<ul>
+<li><strong>preemption</strong>: looping process로 부터 CPU resource를 다시 가져옴</li>
+<li><strong>Memory Protection</strong>: 다른 process의 메모리 영역을 침범하지 못하게 함</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h3 id="computer-system">Computer System</h3>
+<p>하드웨어, OS, application programs, 유저로 나뉜다</p>
+<p><img src="/images/post/os/as-an-interface.png#center50" alt="an-interface"></p>
+<hr>
+<h6 id="-">참고 자료</h6>
+<ul>
+<li>학교 강의자료</li>
+<li>Operating System Concepts 9th edition</li>
+</ul>
+<p><em>부족한 점이 있다면 댓글로 알려주세요!</em></p>
+
+        </div>
+      </div>
+
+      <script src="https://utteranc.es/client.js"
+              repo="kjw217/blog-comments"
+              issue-term="title"
+              label="test_utterances_bot"
+              theme="github-light"
+              crossorigin="anonymous"
+              async>
+      </script>
+    </div>
+  </div>
+</section>
+
+
+<footer class="py-4 bg-light border-top">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+        <a href="https://kjw217.github.io/"><img src="/images/logo_re.png" class="img-fluid"
+            alt="References"></a>
+      </div>
+      <div class="col-lg-4 text-center mb-4 mb-lg-0">
+        <ul class="list-inline mb-0">
+          
+        </ul>
+      </div>
+      <div class="col-lg-4 text-lg-right text-center mb-4 mb-lg-0">
+        <ul class="list-inline social-icon mb-0">
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://github.com/kjw217"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 text-center mt-4">
+        <span></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script>
+  var indexURL = "https://kjw217.github.io/index.json"
+</script>
+
+
+<!-- JS Plugins -->
+
+<script src="https://kjw217.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://kjw217.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://kjw217.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://kjw217.github.io/plugins/search/mark.js"></script>
+
+<script src="https://kjw217.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://kjw217.github.io/js/script.min.js"></script>
+<!-- google analitycs -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'Your ID', 'auto');
+  ga('send', 'pageview');
+</script></body>
+</html>

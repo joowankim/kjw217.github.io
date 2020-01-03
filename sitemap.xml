@@ -3,8 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kjw217.github.io/posts/frameworks/django/</loc>
+    <lastmod>2020-01-03T21:54:18+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/posts/frameworks/</loc>
+    <lastmod>2020-01-03T21:54:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kjw217.github.io/posts/cs/ca/</loc>
     <lastmod>2019-12-28T14:09:28+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/posts/cs/os/operating-system-00-intro/</loc>
+    <lastmod>2019-12-26T12:15:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/categories/</loc>
+    <lastmod>2019-12-26T12:15:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/categories/intro/</loc>
+    <lastmod>2019-12-26T12:15:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/tags/introduction/</loc>
+    <lastmod>2019-12-26T12:15:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/categories/operating-system/</loc>
+    <lastmod>2019-12-26T12:15:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/tags/overview/</loc>
+    <lastmod>2019-12-26T12:15:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/</loc>
+    <lastmod>2019-12-26T12:15:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kjw217.github.io/tags/</loc>
+    <lastmod>2019-12-26T12:15:22+09:00</lastmod>
   </url>
   
   <url>
@@ -43,11 +93,6 @@
   </url>
   
   <url>
-    <loc>https://kjw217.github.io/categories/</loc>
-    <lastmod>2019-12-22T21:38:45+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kjw217.github.io/tags/category-tab/</loc>
     <lastmod>2019-12-22T21:38:45+09:00</lastmod>
   </url>
@@ -64,16 +109,6 @@
   
   <url>
     <loc>https://kjw217.github.io/categories/hugo/</loc>
-    <lastmod>2019-12-22T21:38:45+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/</loc>
-    <lastmod>2019-12-22T21:38:45+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kjw217.github.io/tags/</loc>
     <lastmod>2019-12-22T21:38:45+09:00</lastmod>
   </url>
   

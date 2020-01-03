@@ -6,10 +6,20 @@
     <description>Recent content on References</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 22 Dec 2019 21:38:45 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2019 12:15:22 +0900</lastBuildDate>
     
 	<atom:link href="https://kjw217.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Operating System] 00 Intro</title>
+      <link>https://kjw217.github.io/posts/cs/os/operating-system-00-intro/</link>
+      <pubDate>Thu, 26 Dec 2019 12:15:22 +0900</pubDate>
+      
+      <guid>https://kjw217.github.io/posts/cs/os/operating-system-00-intro/</guid>
+      <description>Operating System A collection of computer programs.
+ mananges computer hardware resources.</description>
+    </item>
     
     <item>
       <title>[Hugo&amp;Github Pages] Theme Customizing 01 카테고리 만들기</title>
