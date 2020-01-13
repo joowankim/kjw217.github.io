@@ -6,10 +6,19 @@
     <description>Recent content on References</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 26 Dec 2019 12:15:22 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2019 12:15:44 +0900</lastBuildDate>
     
 	<atom:link href="https://kjw217.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Operating System] 01 Structure</title>
+      <link>https://kjw217.github.io/posts/cs/os/operating-system-01-structure/</link>
+      <pubDate>Thu, 26 Dec 2019 12:15:44 +0900</pubDate>
+      
+      <guid>https://kjw217.github.io/posts/cs/os/operating-system-01-structure/</guid>
+      <description>Challenging Issues  At any given time, each resource can serve only one process   OS -&amp;gt; Process Management   Multiple processes can be executed while sharing memory   OS -&amp;gt; Memory Management   Using I/O device takes a long time, and CPU is idle and underutilized   OS -&amp;gt; I/O Management   An unauthorized process causes a system fault although other processes have no problem   OS -&amp;gt; Protection   Process Management  process: 실행중인 프로그램 process(thread) scheduling   Memory Manageement  CPU reads both instructions and data from main memory multitasking (Virtual) Memory Manangement   I/O Subsystem  There is always a device driver and device controller for each I/O device I/O request from application device controller takes action device controller informs the CPU via an interrupt that it has finished    Basic Operations OS의 기본적인 동작에는 multitasking, interrupt, protection이 있다</description>
+    </item>
     
     <item>
       <title>[Operating System] 00 Intro</title>
