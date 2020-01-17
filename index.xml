@@ -6,10 +6,21 @@
     <description>Recent content on References</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 26 Dec 2019 12:15:44 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2019 12:16:15 +0900</lastBuildDate>
     
 	<atom:link href="https://kjw217.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Operating System] 02 Process Concept</title>
+      <link>https://kjw217.github.io/posts/cs/os/operating-system-02-process-concept/</link>
+      <pubDate>Thu, 26 Dec 2019 12:16:15 +0900</pubDate>
+      
+      <guid>https://kjw217.github.io/posts/cs/os/operating-system-02-process-concept/</guid>
+      <description>Process A program in execution
+실행중인 프로그램
+Process in Memory 다음 그림은 메모리 영역을 나타낸 그림이다.</description>
+    </item>
     
     <item>
       <title>[Operating System] 01 Structure</title>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ko-kr"><head>
+  <meta charset="utf-8">
+  <title>[Operating System] 02 Process Concept</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="process">
+  
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.61.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://kjw217.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://kjw217.github.io/plugins/themify-icons/themify-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://kjw217.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://kjw217.github.io/images/favicon%281%29.png " type="image/x-icon">
+  <link rel="icon" href="https://kjw217.github.io/images/favicon%281%29.png " type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="fixed-top navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand"href="https://kjw217.github.io/"><img class="img-fluid" src="/images/logo_re.png" alt="References"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://kjw217.github.io/"> Home </a>
+          </li>
+          
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Posts
+              </a>
+              <div class="dropdown-menu">
+                
+                <span class="dropdown-header">Computer Science</span>
+                  
+                  <a class="dropdown-item" href="https://kjw217.github.io/posts/cs/os">OS</a>
+                  
+                
+                <span class="dropdown-header">블로그 만들기</span>
+                  
+                  <a class="dropdown-item" href="https://kjw217.github.io/posts/makeblog/hugo/">Hugo&amp;Github Pages</a>
+                  
+                
+              </div>
+            </li>
+            
+          
+        </ul>
+        
+        <!-- search -->
+        <div class="search">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://kjw217.github.io//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="태그 & 카테고리 & 제목 검색">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation --> <div class="py-5 d-none d-lg-block"></div> 
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-11 mx-auto block shadow mb-5">
+        <h2>[Operating System] 02 Process Concept</h2>
+        <div class="mb-3"><span>by <a href="/author/joowan-kim">Joowan kim</a></span>,
+          <span>at 26 December 2019</span><br/>
+          categories :
+          
+          <a href='/categories/operating-system' class="badge badge-secondary">Operating system</a>
+          <br/>
+          tags :
+          
+          <a href='/tags/process' class="badge badge-info">Process</a>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <h3 id="process">Process</h3>
+<p>A program in execution<br>
+실행중인 프로그램</p>
+<p><img src="/images/post/os/process.png#center50" alt="process"></p>
+<h3 id="process-in-memory">Process in Memory</h3>
+<p>다음 그림은 메모리 영역을 나타낸 그림이다.<br>
+각 영역은 text, data, stack, heap이라는 이름으로 정의되었으며, data영역은 대략 아래와 같이 3가지로 나뉜다고 한다.</p>
+<p><img src="/images/post/os/memory-area.png#center50" alt="memory-area"></p>
+<h5 id="text-">Text 영역</h5>
+<p>프로그램의 실행 코드가 존재하며, 컴파일된 binary assembly code 또한 이 곳에 저장된다</p>
+<ul>
+<li>프로그램 실행코드</li>
+<li>컴파일된 Binary Assembly Code</li>
+</ul>
+<h5 id="data-">Data 영역</h5>
+<p>전역변수와 static symbol이 저장되는 영역이다.<br>
+해당 영역을 쓰임새에 따라 다음 3가지 영역으로 나뉜다.</p>
+<ol>
+<li>읽기 전용으로 초기화되는 영역: <strong>.rodata</strong>
+<ul>
+<li>const로 선언 되는 영역</li>
+<li>각종 문자열 <em>(e.g. printf()문의 format string, 상수 문자열..)</em></li>
+</ul>
+</li>
+<li>읽기/쓰기가 가능한 영역으로 초기화 되는 영역: <strong>.data</strong>
+<ul>
+<li>초기값을 갖는 전역변수</li>
+</ul>
+</li>
+<li>초기화되지 않은 영역: <strong>BSS(Block Started by Symbol)</strong>
+<ul>
+<li>초기화되지 않은 전역변수</li>
+<li>static으로 선언된 symbol</li>
+</ul>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>변수</th>
+<th>영역</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>int i;</td>
+<td>BSS 영역</td>
+</tr>
+<tr>
+<td>int i = 1;</td>
+<td>.data 영역</td>
+</tr>
+<tr>
+<td>char str[] = &ldquo;Hi&rdquo;;</td>
+<td>.data 영역, 읽기/쓰기 가능</td>
+</tr>
+<tr>
+<td>char * pstr = &ldquo;Hi&rdquo;;</td>
+<td>문자열은 .rodata 영역, pstr 변수는 .data 영역</td>
+</tr>
+<tr>
+<td>const char str[] = &ldquo;Hi&rdquo;;</td>
+<td>문자열은 .rodata 영역, str 변수는 .data 영역</td>
+</tr>
+<tr>
+<td>static int i;</td>
+<td>BSS 영역</td>
+</tr>
+</tbody>
+</table>
+<h5 id="stack-">Stack 영역</h5>
+<p>function call을 통해 stack 영역 내에 매개변수, 반환 주소값, 지역변수에 대한 영역을 할당한다.<br>
+function call이 일어날 때마다 앞서 말한 3가지가 스택처럼 할당된다. <strong>PUSH</strong><br>
+function 호출이 완료되었을 땐, 스택에서 사라진다. <strong>POP</strong>
+위와 같이 스택 영역에 차례대로 저장되는 함수의 호출 정보를 스택 프레임(Stack Frame)이라고한다.</p>
+<h6 id="-stack-frame-">스택 프레임(Stack Frame) 동작과정</h6>
+<p>아래와 같은 코드가 있을 때 스택 프레임의 동작과정을 살펴보자<br>
+아래 과정은 <a href="http://tcpschool.com/c/c_memory_stackframe">TCP school 스택 프레임</a>과 같은 예시이다.</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#458;font-weight:bold">int</span> <span style="color:#900;font-weight:bold">main</span>(<span style="color:#458;font-weight:bold">void</span>)
+{
+    func1();  <span style="color:#998;font-style:italic">// func1() 호출
+</span><span style="color:#998;font-style:italic"></span>    <span style="color:#000;font-weight:bold">return</span> <span style="color:#099">0</span>;
+}
+
+<span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">func1</span>()
+{
+    func2();  <span style="color:#998;font-style:italic">// func2() 호출
+</span><span style="color:#998;font-style:italic"></span>}
+<span style="color:#458;font-weight:bold">void</span> <span style="color:#900;font-weight:bold">func2</span>()
+{
+
+}
+</code></pre></td></tr></table>
+</div>
+</div><p><img src="/images/post/os/stack-frame.png#center100" alt="stack-frame"></p>
+<ol>
+<li><strong>STEP 01&gt;</strong> <strong>프로그램이 실행</strong>되면, 가장 먼저 <code>main()</code> 함수가 <strong>호출</strong>되어 <code>main()</code> <em>함수의 스택 프레임</em>이 <strong>스택에 저장(PUSH)</strong></li>
+<li><strong>STEP 02&gt;</strong> <code>func1()</code> 함수를 <strong>호출</strong>하면 해당 함수의 <em>매개변수, 반환 주소값, 지역 변수</em> 등의 <em>스택 프레임</em>이 <strong>스택에 저장</strong></li>
+<li><strong>STEP 03&gt;</strong> <code>func2()</code> 함수를 <strong>호출</strong>하면 해당 <em>함수의 스택 프레임</em>이 추가로 <strong>스택에 저장</strong></li>
+<li><strong>STEP 04&gt;</strong> <code>func2()</code> 함수의 모든 <strong>작업이 완료</strong>되어 <strong>반환</strong>되면, <code>func2()</code> <em>함수의 스택 프레임</em>만이 <strong>스택에서 제거(POP)</strong></li>
+<li><strong>STEP 05&gt;</strong> <code>func1()</code> 함수의 <strong>호출</strong>이 <strong>종료</strong>되면, <code>func1()</code> <em>함수의 스택 프레임</em>이 <strong>스택에서 제거</strong></li>
+<li><strong>STEP 06&gt;</strong> <code>main()</code> 함수의 <strong>모든 작업이 완료</strong>되면, <code>main()</code> <em>함수의 스택 프레임</em>이 <strong>스택에서 제거</strong>되면서 <strong>프로그램이 종료</strong></li>
+</ol>
+<h5 id="heap-">Heap 영역</h5>
+<p>사용자가 직접 관리할 수 있는 영역 <code>malloc()</code>이나 <code>new</code> 연산자를 통해 메모리를 동적할당할 수 있다.<br>
+사용자는 메모리의 할당(new)과 해제(free)를 직접 관리해야하며, 객체지향언어(C++/Java)에서는 Garbage Collection이 제공되지만 그래도 직접적인 관여는 필요하다.</p>
+<h3 id="process-management">Process Management</h3>
+<p>각 프로세스는 OS에 등록되고 OS가 관리한다.<br>
+이를 위해 OS는 각 프로세스의 정보를 담은 Data Structure가 필요하다.<br>
+이를 PCB(Process Control Block)이라고 한다.</p>
+<h4 id="pcbprocess-control-block">PCB(Process Control Block)</h4>
+<p>Process state, Process number(pid), Program Counter(PC), CPU registers 등을 포함한다.</p>
+<p><img src="/images/post/os/pcb.png#center100" alt="PCB"></p>
+<hr>
+<h6 id="-">참고 자료</h6>
+<ul>
+<li>학교 강의자료</li>
+<li>Operating System Concepts 9th edition</li>
+<li><a href="https://ffun.tistory.com/entry/%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0">ffun님 Tistory의 메모리 구조 정리글</a></li>
+<li><a href="http://tcpschool.com/c/c_memory_structure">TCP school 메모리 구조</a></li>
+<li><a href="http://tcpschool.com/c/c_memory_stackframe">TCP school 스택 프레임</a></li>
+</ul>
+<p><em>부족한 점이 있다면 댓글로 알려주세요!</em></p>
+
+        </div>
+      </div>
+
+      <script src="https://utteranc.es/client.js"
+              repo="kjw217/blog-comments"
+              issue-term="title"
+              label="test_utterances_bot"
+              theme="github-light"
+              crossorigin="anonymous"
+              async>
+      </script>
+    </div>
+  </div>
+</section>
+
+
+<footer class="py-4 bg-light border-top">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+        <a href="https://kjw217.github.io/"><img src="/images/logo_re.png" class="img-fluid"
+            alt="References"></a>
+      </div>
+      <div class="col-lg-4 text-center mb-4 mb-lg-0">
+        <ul class="list-inline mb-0">
+          
+        </ul>
+      </div>
+      <div class="col-lg-4 text-lg-right text-center mb-4 mb-lg-0">
+        <ul class="list-inline social-icon mb-0">
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://github.com/kjw217"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 text-center mt-4">
+        <span></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script>
+  var indexURL = "https://kjw217.github.io/index.json"
+</script>
+
+
+<!-- JS Plugins -->
+
+<script src="https://kjw217.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://kjw217.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://kjw217.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://kjw217.github.io/plugins/search/mark.js"></script>
+
+<script src="https://kjw217.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://kjw217.github.io/js/script.min.js"></script>
+<!-- google analitycs -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'Your ID', 'auto');
+  ga('send', 'pageview');
+</script></body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Process on References</title>
+    <link>https://kjw217.github.io/tags/process/</link>
+    <description>Recent content in Process on References</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 26 Dec 2019 12:16:15 +0900</lastBuildDate>
+    
+	<atom:link href="https://kjw217.github.io/tags/process/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Operating System] 02 Process Concept</title>
+      <link>https://kjw217.github.io/posts/cs/os/operating-system-02-process-concept/</link>
+      <pubDate>Thu, 26 Dec 2019 12:16:15 +0900</pubDate>
+      
+      <guid>https://kjw217.github.io/posts/cs/os/operating-system-02-process-concept/</guid>
+      <description>Process A program in execution
+실행중인 프로그램
+Process in Memory 다음 그림은 메모리 영역을 나타낸 그림이다.</description>
+    </item>
+    
+  </channel>
+</rss>
