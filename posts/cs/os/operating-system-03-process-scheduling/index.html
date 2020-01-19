@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ko-kr"><head>
   <meta charset="utf-8">
-  <title>Process</title>
+  <title>[Operating System] 03 Process Scheduling</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is meta description">
+  <meta name="description" content="Process Scheduling">
   
   <meta name="author" content="Themefisher">
   <meta name="generator" content="Hugo 0.61.0" />
@@ -88,75 +88,125 @@
 </header>
 <!-- /navigation --> <div class="py-5 d-none d-lg-block"></div> 
 
-
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto px-0">
-        <h2 class="mb-4">Posts are showing from <span class="text-primary">Process</span> categories</h2>
-        <div class="bg-white shadow block">
+      <div class="col-xl-11 mx-auto block shadow mb-5">
+        <h2>[Operating System] 03 Process Scheduling</h2>
+        <div class="mb-3"><span>by <a href="/author/joowan-kim">Joowan kim</a></span>,
+          <span>at 28 December 2019</span><br/>
+          categories :
           
+          <a href='/categories/operating-system' class="badge badge-secondary">Operating system</a>
+          <br/>
+          tags :
           
-          <article class="mb-5">
-            <h2 class="h4"><a class="text-dark" href="https://kjw217.github.io/posts/cs/os/operating-system-03-process-scheduling/">[Operating System] 03 Process Scheduling</a></h2>
-            <div class="mb-3"><span>by <a href='/author/joowan-kim'>Joowan kim</a></span>,
-              <span>at 28 December 2019</span><br/>
-              categories :
-              
-              <a href='/categories/operating-system' class="badge badge-secondary">Operating system</a>
-              <br/>
-              tags :
-              
-              <a href='/tags/process' class="badge badge-info">Process</a>
-              
-              <a href='/tags/scheduling' class="badge badge-info">Scheduling</a>
-              
-            </div>
-            <p>Process State 프로세스는 아래와 같은 5가지의 상태(State)를 가진다.
-   상태 설명     new 프로세스가 만들어지기 전인 상태 (아직 프로세스가 아님)   ready 프로세스가 메모리에서 CPU에 할당되기를 기다리는(ready) 상태   running CPU가 프로세스의 명령을 수행하고 있는 상태   waiting 프로세스가 특정 event (e.</p>
-            <a href="https://kjw217.github.io/posts/cs/os/operating-system-03-process-scheduling/" class="btn btn-sm btn-outline-primary">read more</a>
-          </article>
+          <a href='/tags/process' class="badge badge-info">Process</a>
           
-          <article class="mb-5">
-            <h2 class="h4"><a class="text-dark" href="https://kjw217.github.io/posts/cs/os/operating-system-02-process-concept/">[Operating System] 02 Process Concept</a></h2>
-            <div class="mb-3"><span>by <a href='/author/joowan-kim'>Joowan kim</a></span>,
-              <span>at 26 December 2019</span><br/>
-              categories :
-              
-              <a href='/categories/operating-system' class="badge badge-secondary">Operating system</a>
-              <br/>
-              tags :
-              
-              <a href='/tags/process' class="badge badge-info">Process</a>
-              
-            </div>
-            <p>Process A program in execution
-실행중인 프로그램
-Process in Memory 다음 그림은 메모리 영역을 나타낸 그림이다.</p>
-            <a href="https://kjw217.github.io/posts/cs/os/operating-system-02-process-concept/" class="btn btn-sm btn-outline-primary">read more</a>
-          </article>
+          <a href='/tags/scheduling' class="badge badge-info">Scheduling</a>
           
-          
-          <div class="mt-5">
-            <!-- pagination -->
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <!-- /pagination -->
-          </div>
+        </div>
+        
+        <div class="content mb-5">
+          <h3 id="process-state">Process State</h3>
+<p>프로세스는 아래와 같은 5가지의 상태(State)를 가진다.</p>
+<table>
+<thead>
+<tr>
+<th align="center">상태</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>new</strong></td>
+<td>프로세스가 만들어지기 전인 상태 <em>(아직 프로세스가 아님)</em></td>
+</tr>
+<tr>
+<td align="center"><strong>ready</strong></td>
+<td>프로세스가 메모리에서 CPU에 할당되기를 기다리는(ready) 상태</td>
+</tr>
+<tr>
+<td align="center"><strong>running</strong></td>
+<td>CPU가 프로세스의 명령을 수행하고 있는 상태</td>
+</tr>
+<tr>
+<td align="center"><strong>waiting</strong></td>
+<td>프로세스가 특정 event <em>(e.g. I/O operation,..)</em> 가 일어나기를 기다리고 있는 상태</td>
+</tr>
+<tr>
+<td align="center"><strong>terminated</strong></td>
+<td>프로세스의 작업이 끝난 상태 (더 이상 프로세스가 아님)</td>
+</tr>
+</tbody>
+</table>
+<h6 id="heading">주의</h6>
+<ul>
+<li>CPU core 하나 당 오직 하나의 프로세스만 <strong>running</strong> 상태</li>
+<li>다른 프로세스는 <strong>ready</strong> 또는 <strong>waiting</strong> 상태</li>
+</ul>
+<p><img src="/images/post/os/process-state.png#center100" alt="process-state"></p>
+<h3 id="process-scheduling">Process Scheduling</h3>
+<p>CPU scheduler가 ready queue에서 프로세스 하나를 선택(CPU Scheduling)해 processor에 올려준다(dispatch).<br>
+그리고 running 상태인 프로세스가 특정 event를 기다리기 위해 waiting queue에 들어간다.<br>
+이러한 과정을 Process Scheduling이라고 한다.</p>
+<ul>
+<li>Ready Queue: ready 상태인 프로세스들을 말한다.</li>
+<li>Waiting Queue: 특정 event를 기다리는 중인 waiting 상태의 프로세스 리스트를 말한다.</li>
+</ul>
+<p>각 Queue는 다음과 같은 특징을 가진다.</p>
+<ul>
+<li>PCB로 이루어진 linked list</li>
+<li>head와 tail을 가리키는 Queue header</li>
+</ul>
+<p><img src="/images/post/os/schedule-queue.png#center100" alt="schedule-queue"></p>
+<h3 id="process-context">Process Context</h3>
+<p>프로세스의 Context는 CPU execution context, Process memory space, Process management in OS에 의해 결정된다.</p>
+<ol>
+<li>CPU execution context:
+<ul>
+<li>Program Counter(PC)</li>
+<li>Registers</li>
+</ul>
+</li>
+<li>Process memory space
+<ul>
+<li>code, data, stack</li>
+</ul>
+</li>
+<li>Process management in OS
+<ul>
+<li>Process Control Block(PCB)</li>
+<li>Kernel stack</li>
+</ul>
+</li>
+</ol>
+<p><img src="/images/post/os/process-context-in-pcb.png#center50" alt="context"></p>
+<h3 id="context-switch">Context Switch</h3>
+<p>OS가 현재 실행중인 프로세스를 다른 프로세스로 바꾸는 것을 말한다.
+<img src="/images/post/os/context-switch.png#center100" alt="context-switch"></p>
+<hr>
+<h6 id="-">참고 자료</h6>
+<ul>
+<li>학교 강의자료</li>
+<li>Operating System Concepts 9th edition</li>
+</ul>
+<p><em>부족한 점이 있다면 댓글로 알려주세요!</em></p>
+
         </div>
       </div>
-    </div>
-</section>
 
+      <script src="https://utteranc.es/client.js"
+              repo="kjw217/blog-comments"
+              issue-term="title"
+              label="test_utterances_bot"
+              theme="github-light"
+              crossorigin="anonymous"
+              async>
+      </script>
+    </div>
+  </div>
+</section>
 
 
 <footer class="py-4 bg-light border-top">

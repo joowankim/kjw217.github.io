@@ -6,7 +6,7 @@
     <description>Recent content in Tags on References</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 26 Dec 2019 12:16:15 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2019 17:00:54 +0900</lastBuildDate>
     
 	<atom:link href="https://kjw217.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Process</title>
       <link>https://kjw217.github.io/tags/process/</link>
-      <pubDate>Thu, 26 Dec 2019 12:16:15 +0900</pubDate>
+      <pubDate>Sat, 28 Dec 2019 17:00:54 +0900</pubDate>
       
       <guid>https://kjw217.github.io/tags/process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scheduling</title>
+      <link>https://kjw217.github.io/tags/scheduling/</link>
+      <pubDate>Sat, 28 Dec 2019 17:00:54 +0900</pubDate>
+      
+      <guid>https://kjw217.github.io/tags/scheduling/</guid>
       <description></description>
     </item>
     
